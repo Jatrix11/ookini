@@ -1,0 +1,78 @@
+body{
+    background-color: #FFE5F0;
+    font-family: georgian, serif;
+    color: #1A1A1A;
+}
+
+h1{
+    color: #451121;
+    font-size: 2.5rem;
+}
+
+header{
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+nav a{
+    color: #451121;
+}
+
+main{
+    padding: 3rem 2rem;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+.metodo-titulo{
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    color: #451121;
+}
+
+.precio{
+    font-weight: bold;
+    color: #451121;
+}
+
+footer{
+    background-color: #451121;
+    color: #FFFFFF;
+    padding: 3rem 2rem;   
+}
+
+footer img{
+    width: 30%;
+    height:300px;
+    padding-bottom: 2rem;
+}
+
+footer p{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#reservas{
+    align-items: center;
+    gap: 0.75rem;
+}
+
+#contador-tazas{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #451121;
+}
+
+#boton-reserva{
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.25rem;
+    background-color: #451121;
+    color: #FFFFFF;
+    border: none;
+    font-family: georgia, serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
