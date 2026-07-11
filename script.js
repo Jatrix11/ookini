@@ -20,7 +20,7 @@ function puedeReservar (tazasDisponibles){
 const botonReservar = document.querySelector("#boton-reserva");
 const contadorTazas = document.querySelector("#contador-tazas");
 
-botonReservar.addEventListener("dblclick", function(){
+botonReservar.addEventListener("click", function(){
    const tazasActuales= Number(contadorTazas.textContent);
 
    if(puedeReservar(tazasActuales)){
